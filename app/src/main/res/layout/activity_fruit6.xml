@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fruit_6">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Koronda"
+        android:textColor="#B0F44336"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/karonda_759" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="354dp"
+        android:layout_height="219dp"
+        android:text="Karondas are wild berries rich in nutrition. The flesh of the unripe fruits is delicious, and when ripe they act as a good substitute for cranberries. The fruits are commonly used in jams and sweet pickles. Grown in the Siwalik Hills of Bihar and West Bengal, the Western Ghats and the Nilgiri Hills, Karondas have the following properties: The fruit of Karonda is an astringen and is used to treat skin conditions. It helps give relief from bad digestion, stomach pain and constipation. It is also a great cure for anaemia and traditionally used to treat anorexia and insanity. Leaf decoction is used to treat fever, diarrhoea, and earache. The roots help give relief from itches and also act as insect repellents "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

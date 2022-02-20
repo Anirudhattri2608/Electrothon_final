@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fruit_1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/camachile2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="monospace"
+        android:text="Camachile"
+        android:textColor="#8BC34A"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="366dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="cursive"
+        android:text="Resembling the Indian sweetmeat Jalebi, the spiralling green-pink pods of jungli jalebi (or kodukkapuli) contain about 6-10 shining black seeds enveloped in a thick, sweet, edible pulp. While the pulp can be eaten raw or made into a drink similar to lemonade, the tangy seeds are used in curries. This fruit is native to Mexico, America, Central Asia, India, Caribbean, Florida, Guam, and Philippines. In India it is found in Tamil Nadu, Kerala, Maharashtra, Karnataka, Andhra Pradesh and West Bengal. The bark and pulp are astringent and hemostatic. The pulp and bark are used to treat gum ailments, toothache and hemorrhages in general. The bark extract is also used against dysentery, chronic diarrhoea and tuberculosis. The ground seed helps in treating ulcers. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fruit_9">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Buddhas Finger"
+        android:textColor="#FFC107"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/buddhas_finger_lemon_800x800" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="381dp"
+        android:layout_height="159dp"
+        android:text="A stunning fruit, Buddha’s hand looks like a lumpy lemon with elongated, yellow tentacles (that resemble gnarled human fingers) protruding from the base; hence, its name—Buddha’s hand. Buddha’s hand has a mild yet zesty flavour and is wonderfully aromatic—it is known to fill rooms with its fresh floral perfume. Believed to have originated in the lower Himalayas, botanists are unsure if it’s native to the region in India or China – some scholars believe that India’s migrating Buddhist monks carried the fruit with them to China in 400 AD.  Grown in: Northeastern India"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

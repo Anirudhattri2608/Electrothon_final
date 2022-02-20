@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fruit_5">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="monospace"
+        android:text="Amberalla"
+        android:textColor="#668BC34A"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/ambarella2" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="357dp"
+        android:layout_height="225dp"
+        android:text="Also called wild mango, a ripe ambarella has the puckering acidity of an unripe mango and the gentle sweetness of pineapple. They can be enjoyed as a juice, as a pickle, as flavouring in fruity cocktails, and as simple slices, sprinkled with salt and red chilli powder. Grown in Tamil Nadu, Kerala, Karnataka, Maharashtra and Goa, the fruit has the following features: The fruit is rich in vitamin C and is a natural antioxidant. It helps with the production of collagen, which keeps the skin, ligaments, tendons and cartilage healthy. It helps boost the immune system. The fruit is rich in iron content and helps produce haemoglobin and myoglobin. Research shows that the fruit helps protect against heart diseases. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

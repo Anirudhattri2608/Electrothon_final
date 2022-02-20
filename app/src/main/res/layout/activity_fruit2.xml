@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fruit_2">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="monospace"
+        android:text="Bilambi"
+        android:textColor="#CDDC39"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/bilambi2" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="357dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="40dp"
+        android:text="A relative of the star fruit, bilimbis are bright green and firm when raw and becomes yellowish, glossy and tender as they ripen. The Indian variety of bilimbis have tart, tangy, acidic, and sharp notes that pack quite a punch. Many bilimbi lovers make a lemonade-type drink to capitalize on these refreshing attributes. To reduce its acidity, the fruit is often pricked first and soaked in salt water for a short period, before being used in chutneys, pickles and jams. Grown in: Kerala, Maharashtra, Karnataka, Tamil Nadu, and Goa. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vegetable_2">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Singhara"
+        android:textColor="#7857B1"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/singhara2" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="344dp"
+        android:layout_height="229dp"
+        android:text="As the name suggests, it would not appear in the form of nuts. But they are the aquatic tuber vegetables that are grown in the marshes, ponds, fields as well as shallow lakes. These rare vegetables are crunchy with white flesh which could be consumed either in the raw form or when cooked. People should not be in confusion with water chestnuts and water caltrops. This white crumbly vegetable is known to be connected with multiple benefits such as lowering the risk of heart disease and promotes weight loss too. Found in Bihar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

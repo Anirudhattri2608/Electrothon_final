@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fruit_8">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Langsat"
+        android:textColor="#5EFFC107"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/langsat" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="378dp"
+        android:layout_height="221dp"
+        android:text="This small, translucent, orb-shaped fruit, is quite sour when unripe, but perfectly sweet when ripe with a taste similar to a bittersweet grapefruit. Cultivated only in a handful of regions in East and South India (especially in the Nilgiri hills), this fruit has the following properties: Langsat is a nutritionally rich fruit containing many vital elements like proteins, carbohydrates, minerals, vitamins and dietary fibre in abundance. It is rich in vitamin A, thiamine and riboflavin, which are necessary for many body functions. The seeds of the fruit are proven to be anti-malarial. Langsat fruit helps in curing digestive tract problems. The fibre rich fruit is good for gut health. The bark of the tree has anti spasmodic properties and can be efficiently used to treat dysentery and diarrhoea. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+</androidx.constraintlayout.widget.ConstraintLayout>
